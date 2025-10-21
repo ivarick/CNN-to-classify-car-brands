@@ -6,7 +6,7 @@ here's a little infrence:
 
 ![Alt text](mercedestest.jpg)
 
-as we see the model predected correct.
+as we can see the model predected correct.
 
 ![Alt text](mercedespred.png)
 
@@ -17,8 +17,6 @@ and again with a BMW image:
 ![Alt text](bmwpred.png)
 
 You can custom the model to predect between whatever with the right dataset.
-
-
 you can use more than two classes.
                
       
