@@ -19,11 +19,13 @@ and again with a BMW image:
 You can custom the model to predect between whatever with the roght dataset.
 the data structure should be as following:
 data---
-       train---
-               class1
-               class2
-        val---
-               class1
-               class2
+--------train---
+---------------class1
+---------------class2
+--------val---
+---------------class1
+---------------class2
+
+you can use more than two classes.
                
       
