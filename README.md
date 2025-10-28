@@ -1,22 +1,62 @@
-# CNN-to-classify-car-brands
-I share in this repo my custom CNN to predict car brands.
-to predict between two cars brands ( Mercedes or a BMW ) with a 90percent accuracy.
-trained on more than 2500 images.
-here's a little infrence:
+# Car Brand Classification using CNN
 
-![Alt text](mercedestest.jpg)
+A custom convolutional neural network for identifying automobile brands from images.
 
-as we can see the model predected correct.
+## Project Overview
 
-![Alt text](mercedespred.png)
+This repository contains a CNN model designed to classify car brands from photographs. The current implementation distinguishes between **Mercedes-Benz** and **BMW** vehicles with **90% accuracy**.
 
-and again with a BMW image:
+## Model Performance
 
-![Alt text](bmwtest.jpg)
+**Training Details:**
+- Dataset size: 2,500+ images
+- Classes: 2 (Mercedes-Benz, BMW)
+- Accuracy: 90%
 
-![Alt text](bmwpred.png)
+## Inference Examples
 
-You can custom the model to predect between whatever with the right dataset.
-you can use more than two classes.
-               
+### Test Case 1: Mercedes-Benz
+
+Input image:
+
+![Mercedes Test Image](mercedestest.jpg)
+
+Model prediction:
+
+![Mercedes Prediction](mercedespred.png)
+
+**Result:** Correctly identified as Mercedes-Benz
+
+### Test Case 2: BMW
+
+Input image:
+
+![BMW Test Image](bmwtest.jpg)
+
+Model prediction:
+
+![BMW Prediction](bmwpred.png)
+
+**Result:** Correctly identified as BMW
+
+## Customization
+
+This model architecture is flexible and can be adapted for various classification tasks:
+
+- **Multi-brand classification**: Extend beyond two classes to identify multiple car manufacturers
+- **Custom datasets**: Train on your own image datasets for different classification problems
+- **Transfer learning**: Use the trained weights as a starting point for related vision tasks
+
+## Architecture
+
+The model implements a custom CNN architecture optimized for automotive brand recognition, featuring:
+- Multiple convolutional layers for feature extraction
+- Pooling layers for spatial dimension reduction
+- Fully connected layers for final classification
+
+
+
+---
+
+**Note:** The model's performance can be improved with larger datasets and additional training epochs. Feel free to experiment with different architectures and hyperparameters.
       
